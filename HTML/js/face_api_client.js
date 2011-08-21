@@ -1,4 +1,4 @@
-.com Rest API JavaScript Library v1.0.2 (alpha) 
+/* face.com Rest API JavaScript Library v1.0.2 (alpha) 
  * http://face.com/
  *
  * Copyright 2010, 

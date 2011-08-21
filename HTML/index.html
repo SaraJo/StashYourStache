@@ -1,0 +1,18 @@
+<HTML>
+    <HEAD>
+	<script type="text/javascript"  src="js/jquery-1.6.2.min.js"></script>
+	<script type="text/javascript" src="js/md5-min.js"></script>
+  <script type="text/javascript" src="js/face_api_client.js"></script>
+  <script type="text/javascript" src="js/stache.js"></script>
+    </HEAD>
+
+    <BODY>
+      <a id="upload">Click here to upload a file!</a>
+      <form enctype="multipart/form-data" action="http://localhost:8888/process.php" method="post">
+        <input type="file" name="file" value="" />
+        Title <input id="Title" type="text" />
+      <button type="submit">Upload</button>
+      </form>
+      <button id="Filter">Filter</button>
+    </BODY>
+</HTML>
